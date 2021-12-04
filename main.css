@@ -1,3 +1,25 @@
 * {
-    box-sizing: border-box;
+  display: block;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+}
+
+div {
+  display: inline-block;
+  text-align: center;
+}
+
+.box {
+  width: 25%;
+  height: 25%;
+  margin:5%;
+  border: solid black;
+}
+
+#article01 {
+  margin: 5% auto;
+  background-color: chocolate;
 }
