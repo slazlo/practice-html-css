@@ -1,25 +1,48 @@
 * {
-  display: block;
   box-sizing: border-box;
+  display: block;
+  color: darkgrey;
 }
 
 body {
-  background-color: burlywood;
+  background-color: black;
 }
 
-div {
-  display: inline-block;
+#container1 {
+  position: fixed;
+  width: 100%;
+}
+
+#box-01, #box-02, #box-03, #box-04 {
+  position: relative;
+  display: inline;
+  float: left;
+  top: 40%;
+  left: 13%;
+  width: 15%;
+  height: 15%;
+  padding: 5%;
+  border: 2px solid grey;
+  margin: 1.5%;
   text-align: center;
 }
 
-.box {
-  width: 25%;
-  height: 25%;
-  margin:5%;
-  border: solid black;
+#para1 {
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  margin: 5 auto;
 }
 
-#article01 {
-  margin: 5% auto;
-  background-color: chocolate;
+#para2 {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 80%;
+}
+
+p {
+  line-height: 150%;
+  font-size: 120%;
 }
